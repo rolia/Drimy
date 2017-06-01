@@ -1,0 +1,38 @@
+body {
+	
+}
+
+/* barra de busqueda y boton */
+.buscador {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10%;
+    display: block;
+    width: 500px;
+}
+
+/* barra de busqueda */
+input {
+	margin-left: 13%;
+	width: 300px;	
+}
+
+/* titulo de la empresa */
+.titulo {
+	text-align: center;
+	margin-top: 2%;
+	font-family: 'Sofia';font-size: 22px;
+	clear: both;
+}
+
+.menu {
+	float: right;
+}
+
+/* lema de la empresa */
+.lema {
+	margin-left: 17%;
+	margin-bottom: 10%;
+	font-family: 'Asap';font-size: 22px;
+	color: blue;
+}
