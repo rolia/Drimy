@@ -58,3 +58,7 @@ h1{
     background-color:#FA5858;
     width:500px;   
 }
+#contenedor{
+	width:1000px;
+	margin:auto;
+}
