@@ -1,6 +1,5 @@
-body {
-	background-image:url("fondo.jpg");
-	
+body{
+	background-image:url("http://marketingenredesociales.com/wp-content/uploads/2014/11/marketing-para-restaurantes.jpg");
 }
 
 /* barra de busqueda y boton */
@@ -22,22 +21,26 @@ input {
 .titulo {
 	text-align: center;
 	margin-top: 2%;
-	font-family: 'Sofia';font-size: 22px;
+	font-family: 'Sofia';font-size: 25px;
 	clear: both;
+	color:#19CAFA;
 }
 
-.menu {
-	float: right;
-}
+
 
 /* lema de la empresa */
 .lema {
 	margin-left: 17%;
 	margin-bottom: 10%;
-	font-family: 'Asap';font-size: 22px;
-	color: blue;
+	font-family: ' sans-serif';
+	font-size: 30px;
+	color: green;
 }
-header{
-	background-color:blue;
-	min-height:8px;
+nav{
+	background-color:#A3D9E1;
+	padding:20px;
+	padding-left:85%;
+	margin-bottom:10%;
+	
+	
 }
