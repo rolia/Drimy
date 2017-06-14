@@ -65,7 +65,7 @@ h1{
 	width:800px;
 	margin:auto;
 	background-color:#3CC79D; 
-	height: 800px;
+	height: 850px;
 	padding-left: 20px;
 	margin-right: 150px;
 	
@@ -82,6 +82,6 @@ h1{
 	background-color:#3CC79D;
 	height= 90px;	
 	margin: auto;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
