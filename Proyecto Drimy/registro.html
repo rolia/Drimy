@@ -66,17 +66,31 @@ margin-left:60px;
 	
 	<div class="row">
 		<label for="email">Correo Electronico:</label><br />
-		<input  name="email" type="text" value="" size="40"  placeholder="Correo electr�nico" />
+		<input  name="email" type="text" value="" size="40"  placeholder="Correo electrónico" />
 	</div> <br />
 	
 	<div class="row">
-	  <label> Contrase�a:</label><br/>
-	   <input type ="password" name="pasword" value=""  size="40" placeholder="Contrase�a" />
+	  <label> Contraseña:</label><br/>
+	   <input type ="password" name="pasword" value=""  size="40" placeholder="Contraseña" />
 	</div><br />
 	
 	<div class="row">
-       <input  type="submit" value="Registrate" width="20px"  > 
+		
+	<script type="text/javascript">
+	function ConfirmDemo() {
+	var mensaje = confirm("¿Desea registrarse?");
+		if (mensaje) {
+			alert("¡Gracias por aceptar!");
+				}
+
+		else {
+			alert("¡Haz cancelado el mensaje!");
+			}
+		}
+	</script>	
+   
 	</div>	
+	
 	
 </form>	
 </div>
