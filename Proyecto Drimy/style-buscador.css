@@ -1,12 +1,10 @@
 body{
-    
+    background-color:#3CC79D; 
     width:820px;
-	margin: auto;
 }
 h1{
     text-align: center;
     margin-top: 20px;
-	
 }
 .b1 {
     margin-right: auto;
@@ -49,7 +47,6 @@ h1{
     margin-top: 5px;
     width: 200px;
     text-align: left;
-	
 }
 #rest2{
     margin-top:20px;
@@ -62,26 +59,6 @@ h1{
     width:500px;   
 }
 #contenedor{
-	width:800px;
+	width:1000px;
 	margin:auto;
-	background-color:#3CC79D; 
-	height: 800px;
-	padding-left: 20px;
-	margin-right: 150px;
-	
-	
-	
-}
-#buscador{
-	background-color:#3CC79D; 
-}
-#placeres{
-	background-color:#F7FE2E;
-}
-#cabecera{
-	background-color:#3CC79D;
-	height= 90px;	
-	margin: auto;
-	padding-top: 10px;
-	padding-bottom: 10px;
 }
