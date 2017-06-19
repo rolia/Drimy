@@ -1,54 +1,8 @@
 <html>
 <head>
 <title> Registrate </title>
-<style> 
-body{
-font-family: tahoma;
-   }
-h3 , h1{
-text-align:center;
-}
-#contenedor{
-    background-color: #ADF7F5;
-    width:400px;
-    margin: auto;
-	padding-top:20px;
-	padding-bottom:20px;
-	border-radius: 10px;
-	margin-top:20px;
-	margin-right:60px;
-}
-#contenedor div{
-    padding-left: 20px;
-	margin-left:40px;
-	margin-right:20px;
-}
-input{
-  padding: 10 0  10 0;
-  text-alig:center;
-  margin-top:10px;
-   padding: 12px;
-  border-radius: 15px;
-  
-}
-footer{
-padding:20px;
-background-color: #D3DEDD;
-text-align:center;
-margin-top:50px;
-}
-#imagen{
-text-align:center;
-margin-left:60px;
-}
-nav{
-float:left;
-margin-left:30px;
-}
-section{
-margin-right:150px;
-}
-</style>
+<link href="../Archivos CSS/style-registro.css" rel= "stylesheet" /> 
+<script src="../Archivos JS/mensaje registro.js"> </script > 
 </head>  
 <body>
   <div id="general">
@@ -57,7 +11,7 @@ margin-right:150px;
 		
     </header>
 	<nav>
-     <img src="https://www.coregistros.com/wp-content/uploads/2016/01/animacion-gif-marketing.gif" /> 
+     <img src="../Imagenes/animacion-gif-marketing.gif" /> 
 	</nav>
 <section> 
 <div id="contenedor">   
@@ -80,30 +34,13 @@ margin-right:150px;
 	   <input type ="password" name="pasword" value=""  size="40" placeholder="Contraseña" />
 	</div><br />
 	
-	<div class="row">
 		
-	<script type="text/javascript">
-	function ConfirmDemo() {
-	var mensaje = confirm("¿Desea registrarseña");
-		if (mensaje) {
-			alert("¡Gracias por aceptar!");
-				}
-
-		else {
-			alert("¡Haz cancelado el mensaje!");
-			}
-		}
-	</script>	
-   
+	<div class="row">
+	<button onclick="ConfirmDemo()"> 
+	 Registrarse
+	</button>
 	</div>	
 	
-	
-
-	<form>
-	<div style="text-align:center;">
-	<input type="button" onclick="ConfirmDemo()" value="Registrarse" />
-		</div>
-	</form>	
 		
 	
 </form>	
