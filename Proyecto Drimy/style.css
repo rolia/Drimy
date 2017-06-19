@@ -8,6 +8,7 @@ body{
     margin-left: auto;
     display: block;
     width: 500px;
+	height:350px;
 }
 
 /* barra de busqueda */
@@ -38,6 +39,7 @@ input {
 	background-color:rgba(182, 226, 167, 0.27);
 	padding:1px 34px;
 	width:90%;
+	margin-top: 50px;
 	
 }
 nav{
