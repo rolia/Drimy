@@ -62,9 +62,9 @@ h1{
     width:500px;   
 }
 #contenedor{
-	width:800px;
+	width:900px;
 	margin:auto;
-	background-color:#3CC79D; 
+	background-image:url("../Imagenes/OGA1IU0_alt.jpg");
 	height: 850px;
 	padding-left: 20px;
 	margin-right: 150px;
@@ -73,13 +73,12 @@ h1{
 	
 }
 #buscador{
-	background-color:#3CC79D; 
+
 }
 #placeres{
 	background-color:#F7FE2E;
 }
 #cabecera{
-	background-color:#3CC79D;
 	height= 90px;	
 	margin: auto;
 	padding-top: 20px;
