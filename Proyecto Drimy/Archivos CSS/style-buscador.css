@@ -20,7 +20,7 @@ h1{
     text-align: center;
 }
 #filtro{
-    background-color:  #B5F0F1;
+    background-color:rgba(247, 229, 250, 1);
     float:left;
     margin-top: 45px;
     width:200px;
@@ -41,7 +41,7 @@ h1{
 }
 #rest1 {
     margin-top:0px;
-    background-color: #6FDD3F;
+    background-color: #e6e6fa;
     width:500px;
 }
 #info{
@@ -53,12 +53,12 @@ h1{
 }
 #rest2{
     margin-top:20px;
-    background-color:#F7FE2E;
+    background-color:#e6e6fa;
     width:500px;   
 }
 #rest3{
     margin-top:20px;
-    background-color:#FA5858;
+    background-color:#e6e6fa;
     width:500px;   
 }
 #contenedor{
@@ -76,7 +76,7 @@ h1{
 
 }
 #placeres{
-	background-color:#F7FE2E;
+	background-color:#e6e6fa;
 }
 #cabecera{
 	height= 90px;	
