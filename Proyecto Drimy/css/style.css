@@ -1,0 +1,294 @@
+
+/* ================== SE REPITEN ================== */
+
+body{
+	font-family: Arial,Helvetica,Sans,Sans-Serif,Sans Serif;
+	margin: 0;
+}
+
+/* titulo del menu*/
+header a {
+	padding-right: px;
+	display: inline-block ;
+	text-decoration: none;
+	padding: 10px;
+	font-size: 30px;
+	font-family: 'Sofia';
+	color: white;
+	z-index: 1;
+}
+
+/* contenedor de los links del menu */
+.link{
+	width: 300px;
+	margin-left: auto;
+	margin-top: -64px;
+	padding-bottom: 10px;
+}
+
+/* mostrando links en linea */
+li {
+	display: inline;
+}
+
+/* estilo de fuente de los links */
+li a{
+	font-size: 15px;
+	font-family: Arial,Helvetica,Sans,Sans-Serif,Sans Serif;
+}
+
+input{
+ 	padding: 10 0  10 0;
+ 	text-alig:center;
+ 	margin-top:10px;
+ 	padding: 12px;
+ 	border-radius: 15px;
+}
+
+
+
+/* ================== INDEX CSS ================== */
+
+/* MENU */
+/* color de fondo del menu*/
+header{
+	background-color: #00BCD4;
+	text-align: center;
+}
+
+/* LEMA Y BUSCADOR */
+/* contenedor */
+.contenedor-index{
+	color: white;
+	background-color:rgba(25, 202, 250, 0.70);
+	margin: 5% 20%;
+	padding: 2%;
+	text-align: center;
+}
+
+/* lema de la empresa */
+.lema-index {
+	font-family: Arial,Helvetica,Sans,Sans-Serif,Sans Serif;;
+	font-size: 2em;
+}
+
+/* barra de busqueda y boton */
+.buscador-index {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 500px;
+}
+
+/* barra de busqueda */
+input {
+	margin-left: 13%;
+	width: 300px;
+	padding:10px;
+}
+
+
+
+/* ================== REGISTRO CSS ================== */
+
+/*estilo del contenedor*/
+#contenedor-registro{
+    background-color: #00BCD4;
+    width:400px;
+    margin: auto;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-top: 5%;
+}
+
+/* FORMULARIO */
+/* titulo formulario */
+#contenedor-registro h3{
+	text-align: center;
+}
+
+/* label formulario*/
+#contenedor-registro label{
+	margin-left: 15%; 
+}
+
+/* boton formulario */
+.boton-registro{
+    text-align: center;
+}
+
+
+
+/* ================== RESULTADOS CSS ================== */
+
+/* BUSCADOR */
+/* estilo del buscador */
+#buscador-resultados{
+	background-color: #37454d;
+	padding: 2%;
+}
+
+/* estilo de la barra de busqueda */
+.buscador-r {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 450px;
+}
+
+/* estilo de las opciones del buscador */
+.buscador-opciones-r {
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* FILTRO */
+/*  contenedor de filtro */
+#filtro{
+    background-color:  #B5F0F1;
+    float:left;
+    margin-top: 5%;
+    width:200px;
+    margin-left: 10%;
+    text-align: center;
+}
+
+/* botones de tenedores */
+#filtro > button{
+    margin-top: 3px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* estilo a los botones */
+select {
+    margin-bottom: 20px;
+}
+
+/* botones de puntuacion y precio */
+#filtro .option{
+    margin-bottom: 20px;
+}
+/*botones de lo mas buscado */
+#filtro > checkbox{
+    margin-bottom: 20px;
+}
+
+/* RESTAURANTES */
+/* contenedor de restaurantes */
+#restaurantes-contenedor{
+    float:left;
+    margin-left: 80px;
+    margin-top: 45px;
+
+}
+
+/* restaurante 1 */
+#rest1 {
+    margin: 4% 0;
+    background-color: #6FDD3F;
+    width:700px;
+}
+
+/* restaurante 2 */
+#rest2{
+    margin-top:20px;
+    background-color:#F7FE2E;
+    width:700px;   
+}
+
+/* restaurante 3 */
+#rest3{
+    margin-top:20px;
+    background-color:#FA5858;
+    width:700px;   
+}
+
+/* informacion de los restaurantes */
+#rest-info{
+    float:right;
+    margin: 30px 120px;
+    width: 200px;
+    text-align: left;
+}
+
+
+
+/* ================== DETALLES CSS ================== */
+
+/* CONTENEDOR */
+
+h2 {
+	margin: 100px 140px 30px;
+}
+
+/* */
+#derecha{
+	width: 40%;
+	float: right;
+}
+
+#derecha button{
+    margin: 5px;
+    margin-left: 70px;
+    width: 60px;
+    text-align: center;
+}
+
+#izquierda{
+    width: 60%;
+    
+}
+
+.izq-contenedor{
+	width: 400px;
+	margin: 8% auto;
+	display: block;
+	text-align: center;
+}
+
+#mapa {
+    background-image: url("http://gadgerss.com/wp-content/uploads/2014/06/cobertura-ftth-voy.png");
+    min-height: 150px;
+    width: 80%;
+    border: 1px solid #c5c5c5;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+#direccion{
+	float:left;
+	margin-left:140px ;
+	font-size: 13px;
+	clear: both;
+   
+}
+
+#restaurante-descripcion p{
+	margin-left: 140px;
+	margin-right: 140px;
+	text-align: justify;
+}
+
+#servicios{
+    margin: auto;
+}
+
+#servicios-detalles {
+	margin-left: 140px;
+	margin-right: 140px;
+}
+
+#servicios-detalles img {
+	margin-left: 150px;
+}
+
+#tabIzq{
+    float: left;
+    width: 50%;  
+}
+
+#tabDer{
+    margin-left:50%;
+}  

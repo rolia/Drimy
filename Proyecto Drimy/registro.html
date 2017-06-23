@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>Registro</title>
+		<link href="css/style.css" rel= "stylesheet" />
+		<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+		<script src="js/functions.js"></script>
+	</head>  
+	<body style="background-color: #EEEEEE;">
+		<header> 
+			<a href="index.html"> Drimy </a>
+			<div class="link">
+				<ul>
+					<li><a href="#">INICIAR</a></li>
+				</ul>
+			</div>
+		</header>
+		<div id="contenedor-registro">   
+			<form  action="url" method="post"> 
+				<h3>Registro</h3>
+				<div class="row">
+					<label for="name"> Nombre:</label><br />
+					<input type="text" name="nombre"  size="40"  placeholder="Juan"/>
+				</div><br/>
+				<div class="row">
+					<label for="email">Correo Electronico:</label><br />
+					<input  name="email" type="text" value="" size="40"  placeholder="juan@email.com" />
+				</div> <br />
+				<div class="row">
+					<label> Contraseña:</label><br/>
+					<input type ="password" name="pasword" value=""  size="40" placeholder="Contraseña" />
+				</div><br />
+			</form>
+			<div class="boton-registro">
+				<button type="submit" onclick="ConfirmDemo()" value="Registrarse"> Registrarse </button>
+			</div>
+	</body>
+</html>
