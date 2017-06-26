@@ -13,7 +13,7 @@ function confirmacion() {
     var pregunta = confirm("Salir de esta página?")
         if (pregunta){
 			alert("Adios!")
-			window.location = "https://marcello45.000webhostapp.com/buscador.html";
+			window.location = "https://carnivorous-firearm.000webhostapp.com/resultados.html";
         }else{
             alert("Gracias por permanecer en la página!")
         }
