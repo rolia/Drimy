@@ -145,7 +145,7 @@ input {
 /* FILTRO */
 /*  contenedor de filtro */
 #filtro{
-    background-color:  #B5F0F1;
+    background-color:  #81F7F3;
     float:left;
     margin-top: 5%;
     width:200px;
@@ -187,21 +187,21 @@ select {
 /* restaurante 1 */
 #rest1 {
     margin: 4% 0;
-    background-color: #6FDD3F;
+    background-color:#81F7F3;
     width:700px;
 }
 
 /* restaurante 2 */
 #rest2{
     margin-top:20px;
-    background-color:#F7FE2E;
+    background-color:#81F7F3;
     width:700px;   
 }
 
 /* restaurante 3 */
 #rest3{
     margin-top:20px;
-    background-color:#FA5858;
+    background-color:#81F7F3;
     width:700px;   
 }
 
