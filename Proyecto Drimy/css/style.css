@@ -151,6 +151,7 @@ input {
     width:200px;
     margin-left: 10%;
     text-align: center;
+	margin-bottom:10px;
 }
 
 /* botones de tenedores */
@@ -207,9 +208,10 @@ select {
 /* informacion de los restaurantes */
 #rest-info{
     float:right;
-    margin: 30px 120px;
+    margin: 10px 120px;
     width: 200px;
     text-align: left;
+	margin-top:10px;
 }
 
 
@@ -221,7 +223,9 @@ select {
 h2 {
 	margin: 100px 140px 30px;
 }
-
+h1{
+text-align:10px ;
+}
 /* */
 #derecha{
 	width: 40%;
@@ -237,6 +241,7 @@ h2 {
 
 #izquierda{
     width: 60%;
+	
     
 }
 
@@ -244,7 +249,6 @@ h2 {
 	width: 400px;
 	margin: 8% auto;
 	display: block;
-	text-align: center;
 }
 
 #mapa {
