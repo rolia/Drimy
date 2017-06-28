@@ -45,7 +45,17 @@ input{
  	border-radius: 15px;
 }
 
-
+footer{
+	background-color:black;
+	text-align:center;
+}
+#izquierda{
+     float: left;
+     width: 50%;
+ }
+  #derecha{
+      margin-left: 50%;
+  }
 
 /* ================== INDEX CSS ================== */
 
