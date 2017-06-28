@@ -152,6 +152,7 @@ input {
     margin-left: 10%;
     text-align: center;
 	margin-bottom:10px;
+	min-height:660px;
 }
 
 /* estrellas de tenedores */
@@ -206,9 +207,8 @@ input[type="radio"]:checked ~ label {
 /* contenedor de restaurantes */
 #restaurantes-contenedor{
     float:left;
-    margin-left: 80px;
+    margin-left: 70px;
     margin-top: 45px;
-
 }
 
 /* restaurante 1 */
@@ -241,7 +241,13 @@ input[type="radio"]:checked ~ label {
 	margin-top:10px;
 }
 
-
+/*====================PUBLICIDAD=====================*/
+#publicidad{
+    float:right;
+    width:250px;
+    margin-top:150px;
+    min-height: 50px;
+}
 
 /* ================== DETALLES CSS ================== */
 
