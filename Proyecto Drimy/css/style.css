@@ -154,17 +154,44 @@ input {
 	margin-bottom:10px;
 }
 
-/* botones de tenedores */
-#filtro > button{
-    margin-top: 3px;
-    margin-bottom: 20px;
-    text-align: center;
+/* estrellas de tenedores */
+
+#form {
+  margin: 0 auto;
 }
 
-/* estilo a los botones */
-select {
-    margin-bottom: 20px;
+#form p {
+  text-align: center;
 }
+
+#form label {
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  color: grey;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label {
+  color: orange;
+}
+
+input[type="radio"]:checked ~ label {
+  color: orange;
+}
+
+
+
+
 
 /* botones de puntuacion y precio */
 #filtro .option{
