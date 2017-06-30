@@ -45,17 +45,24 @@ input{
  	border-radius: 15px;
 }
 
-footer{
-	background-color:black;
-	text-align:center;
+.pie{
+	background-color: #C0C0C0;
+	clear:both;
+	padding-bottom:50px;
+	padding-top:10px;
 }
-#izquierda{
+.izquierda{
      float: left;
      width: 50%;
+	 text-align:center;
+	 
  }
-  #derecha{
+.derecha{
       margin-left: 50%;
+	   width: 50%;
+	   text-align:center;
   }
+
 
 /* ================== INDEX CSS ================== */
 
