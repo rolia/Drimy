@@ -5,7 +5,7 @@
 		<link href="css/style.css" rel= "stylesheet" />
 		<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
     </head>
-    <body style="background-image:url(img/fondo.jpg) ">
+    <body style="background-image:url(img/fondo.jpg); border: solid white;">
 	<header> 
 		<a href="index.html">Drimy</a>
 		<div class="link">
@@ -28,7 +28,7 @@
         </section>
         <section id="filtro">
             <h1>Filtros</h1>
-	            <p>Tenedores</p>
+	            <p style="color:black;">Tenedores</p>
 	              <form>
   <p class="clasificacion">
     <input id="radio1" type="radio" name="estrellas" value="5"><!--
@@ -50,20 +50,20 @@
   </p>
 </form>
  
-            <p>Puntuacion</p>
+            <p style="color:black;">Puntuacion</p>
 	            <select>
 	               <option>Excelente</option> 
 	               <option>Bueno</option> 
 	               <option>Malo</option> 
 	               <option>Muy malo</option> 
 	            </select>
-            <p>Precio</p>
+            <p style="color:black;">Precio</p>
                 <select>
                     <option>s/10 - s/30</option> 
                     <option>s/40 - s/70</option> 
                     <option>s/80 a mas</option> 
                 </select>
-            <p>Lo mas buscado</p>
+            <p style="color: black;">Lo mas buscado</p>
 	            <input type="checkbox" name="wifi" value="1" style="width: 20px; margin-left: 0px;">WI-FI Gratis<br>
 				<input type="checkbox" name="desayuno" value="2" style="width: 20px; margin-left: 0px;">Desayuno<br>
 				<input type="checkbox" name="playa" value="3" style="width: 20px; margin-left: 0px; margin-bottom: 30px;">Playa<br>
@@ -73,27 +73,40 @@
                 <img src="http://res.cloudinary.com/dhxaxlwii/image/upload/w_200,h_200,c_fill/kdynrexvr2pncie1v0gl.jpg"/>
                 <div id="rest-info">
                     <a href="https://marcello45.000webhostapp.com/detalles.html"><h1>EL GRAN GOURMET</h1></a>
-                    <p>*Excelente - 84/100 (356 opiniones)<br/>*Wi-Fi gratis </p>
+                    <p style="color:black;">*Excelente - 84/100 (356 opiniones)<br/>*Wi-Fi gratis </p>
                 </div>
             </section>
             <section id="rest2">
                 <img src="http://res.cloudinary.com/dhxaxlwii/image/upload/w_200,h_200,c_fill/mxty5vea8bkkvudahgwa.jpg"/>
                 <div id="rest-info">
                     <h1 id="placeres">PLACERES DEL GUSTO</h1>
-                    <p>*Bueno - 50/100 <br/>*Menu economicos <br/>*Desayunos  </p>
+                    <p style="color: black;">*Bueno - 50/100 <br/>*Menu economicos <br/>*Desayunos  </p>
                 </div>   
             </section>
             <section id="rest3">
                 <img src="http://statics.loff.it/wp-content/uploads/2017/05/loffit-restaurantes-que-merecen-que-la-calle-cambie-de-nombre-29-200x200.jpg"/>
                 <div id="rest-info">
                     <h1>EL SABOR MARINO</h1>
-                    <p>*Excelente - 70/100 <br/>*Con vista al mar<br/>*Con Wi-Fi</p>
+                    <p style="color:black;">*Excelente - 70/100 <br/>*Con vista al mar<br/>*Con Wi-Fi</p>
                 </div>   			
             </section>
         </section>
 		</div>
 		<aside id="publicidad">
-					<img width=250px; src="http://stylelovely.com/yvessaintlaurent/files/2016/11/Bannervertical_YSL2.gif"/>
+					<img width=190px; src="http://stylelovely.com/yvessaintlaurent/files/2016/11/Bannervertical_YSL2.gif"/>
 		</aside>
     </body>
+    <footer class="pie">           
+            <section class="izquierda"> <br/> 
+                 <h3> Drimy </h3>
+                 <hr>
+                <p> Somos una pagina web enfocada en facilitar la busqueda 
+                y seleccion del restaurante ideal para ti.</p>
+            </section>            
+            <section class="derecha" style="color:white;"> Siguenos en: <br/>  <br/>       
+            <a href="#"><img src="img/facebook_circle_color-64.png"/></a>
+            <a href="#"><img src="img/Instagram-64.png"/></a>
+            <a href="#"><img src="img/twitter_circle_color-64.png"/></a>
+            </section>
+        </footer>
 </html>

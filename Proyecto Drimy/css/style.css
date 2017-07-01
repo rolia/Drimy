@@ -46,21 +46,32 @@ input{
 }
 
 .pie{
-	background-color: #C0C0C0;
+	background-color: #37454d;
 	clear:both;
 	padding-bottom:50px;
 	padding-top:10px;
+    border:solid white;
 }
 .izquierda{
      float: left;
      width: 50%;
 	 text-align:center;
+     margin-right: 30px;
 	 
  }
 .derecha{
       margin-left: 50%;
 	   width: 50%;
 	   text-align:center;
+       margin-top: 40px;
+  }
+  h3{
+    color:white;
+  }
+  p{
+    text-align: left;
+    margin-left: 31px;
+    color:white;
   }
 
 
@@ -110,12 +121,13 @@ input {
 
 /*estilo del contenedor*/
 #contenedor-registro{
-    background-color: #00BCD4;
-    width:400px;
-    margin: auto;
+  background-color: #00BCD4;
+  width:400px;
+  margin: auto;
 	padding-top:20px;
 	padding-bottom:20px;
 	margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 /* FORMULARIO */
@@ -150,7 +162,7 @@ input {
     margin-right: auto;
     margin-left: auto;
     display: block;
-    width: 450px;
+    width: 490px;
 }
 
 /* estilo de las opciones del buscador */
