@@ -358,3 +358,19 @@ text-align:10px ;
 #tabDer{
     margin-left:50%;
 }  
+#Usuario{
+	margin-left: 0px;
+	margin-bottom: 15px;
+	size: 200px
+}
+#ideas{
+	height:125px;
+	width: 315px;
+	margin-bottom: 30px;
+}
+#comentario{
+	margin: 30px 0px 30px 0px;
+}
+hr{
+	
+}
