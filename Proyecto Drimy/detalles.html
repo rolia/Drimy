@@ -1,72 +1,61 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-        <title>Detalles</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>Drimy | Detalles</title>
 		<link href="css/style.css" rel="stylesheet"/>
 		<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+        <link rel="icon" type="image/ico" href="img/favicon.ico"/>
 		<script src="js/functions.js"></script>
     </head>
-    <body style="border:solid white; background-color: #81F7F3; background-size: cover;">
-	    <header>
-			<a href="/">Drimy</a>
-			<div class="link">
-				<ul>
-					<li><a href="registro.html">REGISTRARSE</a></li>
-					<li><a href="inicio.html">INICIAR</a></li>
-				</ul>
-			</div>
-		</header>
-    <div id="contenedor-detalles" style="border:solid white;">
-            <section id="derecha">
-                <table border="0px" style="margin: 15% auto;">
-                    <tr>
-                        <td>Lomo saltado</td>
-                         <td>s/40</td>
-                    </tr>
-                    <tr>
-	                    <td>Aji de gallina</td>
-                        <td>s/24</td></tr>
-                    <tr>
-                        <td>Arroz con mariscos</td>
-                        <td>s/28</td>
-                    </tr>
-                </table>
-                <input type="button" onclick=" confirmacion()" value="Salir de la página" style="margin: 0;"/>
-            </section>
-            <section id="izquierda">
-	            <div class="izq-contenedor">
-				<h1>El Gran Gourmet</h1>
-					<img src="http://cdn5.upsocl.com/wp-content/uploads/2014/05/awebic-restaurantes-7.jpg" alt=""  width="250px"/>
-                	<p style="color:black;"> Excelente: 84/100 (365 opiniones)</p>
-					<p style="color: black;">Wi-fi gratis</p></span>
-
+    <body style="background-image: url('img/fondo-index.jpg'); background-size: cover; background-position: center;">
+	    <header class="header-fijo">
+            <a href="/"> Drimy </a>
+            <div id="link">
+                <ul>
+                    <li><a href="registro.html">REGISTRARSE</a></li>
+                    <li><a href="inicio.html">INICIAR</a></li>
+                </ul>
+            </div>
+            <div class="contenedor-buscador-fijo">
+                <div class="buscador-fijo">
+                    <input type="text" name="nombredelacaja" placeholder="Ej.:Barranco">
+                    <button type="button" onclick="window.location='resultados.html';">Buscar</button>
                 </div>
-            </section>
-            <h2>Ubicación</h2>
-            <hr />
-            <section id="mapa">
-            </section>
-            <p id="direccion" style="color:black;"> Calle Esperanza 142,18, Barranco,Perú</p>
-            <br />
-			<section id="restaurante-descripcion">
+            </div>
+        </header>
+        <div id="ci-detalles" class="contenedor-index">
+            <div id="detalles-resumen">
+    			<h1>El Gran Gourmet</h1>
+                <hr>
+    			<img src="http://cdn5.upsocl.com/wp-content/uploads/2014/05/awebic-restaurantes-7.jpg" alt=""  width="250px"/>
+                <p>Excelente: 84/100 (365 opiniones)</p>
+    			<p>Wi-fi gratis</p></span>
+            </div>
+            <div id="detalles-ubicacion">
+                <h2>Ubicación</h2>
+                <hr/>
+                <div id="mapa"></div>
+                <p>Calle Esperanza 142,18, Barranco,Perú</p>
+            </div>
+			<div id="detalles-descripcion">
                 <h2>Descripcion</h2>
 				<hr />
-				<p style="color:black;">El Gran Gourmet es un restaurante de 3.5 tenedores en Barranco,Lima  que cuenta con todos los servicios
-					que hacen que las experiencias en cuanto en calidad, confort y percepciones sean ampliamente superados por
-					los clientes, así como la cercanía, calidez y ubicación que te permiten estar en el Centro Turístico y de entretenimiento de Barranco <br />
-					<a href="https://www.tripadvisor.com.pe/Restaurant_Review-g1066061-d8830138-Reviews-El_Gran_Gourmet_Restaurant-Tarma_Junin_Region.html" target="_blank">Leer más...</a>
+				<p>El Gran Gourmet es un restaurante de 3.5 tenedores en Barranco,Lima  que cuenta con todos los servicios
+				que hacen que las experiencias en cuanto en calidad, confort y percepciones sean ampliamente superados por
+				los clientes, así como la cercanía, calidez y ubicación que te permiten estar en el Centro Turístico y de entretenimiento de Barranco 
+				<a href="https://www.tripadvisor.com.pe/Restaurant_Review-g1066061-d8830138-Reviews-El_Gran_Gourmet_Restaurant-Tarma_Junin_Region.html" target="_blank">Leer más...</a>
                	</p>
-            </section>
-            <section >
+            </div>
+            <div id="detalles-servicios" >
 				<h2>Servicios Especiales</h2>
-                <hr />
+                <hr/>
 				<table id="servicios-detalles"  border="0px">
                     <tr >
-                    	<td class="imgs"> <img style="height: 100px;" src="http://www.freepngimg.com/download/wifi/1-2-wi-fi-png-file.png "/></td>
-                        <td class="imgs"> <img style="height: 100px;" src="https://image.flaticon.com/icons/png/512/38/38649.png" /></td>
-                        <td class="imgs"> <img style="height: 100px;" src="https://image.flaticon.com/icons/png/128/25/25651.png"  /></td>
-                        <td class="imgs"><img style="height: 100px;" src="http://stayinborrowdale.co.uk/wp-content/uploads/2015/11/cafe.png" /></td>
+                    	<td><img style="height: 100px;" src="img/wifi.png"/></td>
+                        <td ><img style="height: 100px;" src="img/bar.png"/></td>
+                        <td><img style="height: 100px;" src="img/musica.png"/></td>
+                        <td><img style="height: 100px;" src="img/cafe.png"/></td>
                     </tr>
                     <tr>
                         <td style="text-align: center;">Wi-Fi gratis</td>
@@ -75,9 +64,10 @@
                         <td style="text-align: center;">Desayuno</td>
                     </tr>
                 </table>
-            </section>
+            </div>
+            <div id="detalles-platos">
             <h2>Platos</h2>
-            <hr />
+            <hr/>
             <section style="width: 700px; margin:auto;">
                 <section id="tabIzq">
                 <table style="margin:auto;" border="0px">
@@ -119,19 +109,20 @@
                 </tr>
                 </table>
             </section>
+        </div>
 	</div>
-    </body>
-    <footer class="pie">
-        <section class="izquierda"> <br/>
-            <h3> Drimy </h3>
-                 <hr>
-            <p> Somos una pagina web enfocada en facilitar la búsqueda
-                y selección del restaurante ideal para ti.</p>
-        </section>
-        <section class="derecha" style="color:white;"> Siguenos en: <br/>  <br/>
-            <a href="#"><img src="img/facebook_circle_color-64.png"/></a>
-            <a href="#"><img src="img/Instagram-64.png"/></a>
-            <a href="#"><img src="img/twitter_circle_color-64.png"/></a>
-        </section>
+    <footer id="pie">
+      <section id="izquierda">
+          <h3>Drimy</h3>
+          <hr>
+        <p> Somos una pagina web enfocada en facilitar la búsqueda y selección del restaurante ideal para ti.</p>
+      </section>
+      <section id="derecha">
+        <h3>Siguenos en</h3>
+        <a href="#"><img src="img/facebook-icon.svg"/></a>
+        <a href="#"><img src="img/instagram-icon.svg"/></a>
+        <a href="#"><img src="img/twitter-icon.svg"/></a>
+      </section>
     </footer>
+    </body>
 </html>

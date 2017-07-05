@@ -7,16 +7,9 @@ body{
 	margin: 0;
 }
 
-h3{
-  color:white;
-}
-
-p{
-	text-align: center;
-}
-
-h1{
-	text-align: center;
+h3 {
+  color: white;
+  text-align: center;
 }
 
 /* encabezamiento */
@@ -52,6 +45,42 @@ li a{
 	font-family: Arial,Helvetica,Sans,Sans-Serif,Sans Serif;
 }
 
+/* encabezamiento fijo */
+.contenedor-buscador-fijo{
+	background-color: #37454d;
+	padding: 2% 25%;
+	padding-top: 0px;
+	top: 0px;
+	margin-top: -458px;
+}
+
+/* estilo del buscador resultados */
+.buscador-fijo {
+    text-align: center;
+    margin-top: 450px;
+    padding: 5% 0 0;
+}
+
+.buscador-fijo input{
+	width: 50%;
+	font-size: 1em;
+	padding: 2% 5%;
+	border: 0;
+}
+
+.buscador-fijo button{
+	padding: 2%;
+	border: 0;
+	font-size: 1em;
+}
+
+.header-fijo{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 17%;
+}
+
 /* buscador en el encabezamiento */
 .buscador-r input{
 	width: 300px;
@@ -68,19 +97,20 @@ li a{
 #pie{
 	background-color: #37454d;
 	padding: 5% 0 15%;
+	clear: both;
 }
 
 #izquierda{
 	float: left;
-  width: 50%;
+  	width: 50%;
 	text-align:center;
-  margin: 0 5%;
+  	margin: 0 5%;
 	color: white;
  }
 
 #derecha{
 	float: left;
-  margin: 0 5%;
+  	margin: 0 5%;
 	width: 30%;
 	text-align: center;
 }
@@ -110,10 +140,40 @@ li a{
 		padding-left: 0px;
 	}
 
-	/* pie de pagina */
+	/* buscador fijo*/
+	.contenedor-buscador-fijo{
+		padding: 2% 10%;
+		padding-top: 0px;
+		top: 0px;
+		margin-top: -458px;
+	}
 
+	.buscador-fijo{
+		padding: 5% 0;
+	}
+
+	.buscador-fijo input{
+		width: 50%;
+		padding: 3% 8%;
+		font-size: 2em;
+		border: 0;
+	}
+
+	.buscador-fijo button{
+		padding: 3%;
+		border: 0;
+		font-size: 2em;
+		margin: 0;
+	}
+
+	.header-fijo{
+		height: 24%
+	}
+
+	/* pie de pagina */
 	#pie{
 		font-size: -webkit-xxx-large;
+		clear: both;
 	}
 
 	#izquierda{
@@ -154,7 +214,7 @@ li a{
 	margin: 0 5%;
 }
 
-/* barra de busqueda */
+/* barra de busqueda index*/
 .buscador-index input{
 	margin-left: 0;
 	width: 50%;
@@ -214,6 +274,7 @@ li a{
     text-align: center;
 }
 
+/*estilo de texto del boton*/
 .boton-registro h2{
 	margin: 3% 0 1%;
 }
@@ -248,6 +309,7 @@ li a{
 		font-size: 2em;
 	}
 }
+
 
 /* ================== INICIO CSS ================== */
 
@@ -326,28 +388,10 @@ li a{
 
 /* ================== RESULTADOS CSS ================== */
 
-/* BUSCADOR */
-/* estilo del buscador */
-.buscador-resultados{
-	background-color: #37454d;
-	padding: 2%;
+.contenedor-resultados{
+	margin-top: 170px;
 }
 
-/* estilo de la barra de busqueda */
-.buscador-r {
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
-    width: 490px;
-}
-
-/* estilo de las opciones del buscador */
-.buscador-r-opciones {
-    margin-top: 10px;
-    text-align: center;
-}
-
-/* FILTRO */
 /*  contenedor de filtro */
 #filtro{
     background-color: #81F7F3;
@@ -355,6 +399,14 @@ li a{
     width: 19%;
     margin: 5% 3%;
     text-align: center;
+}
+
+#filtro p{
+	margin-top: 15%;
+}
+
+#filtro form{
+	margin-top: -8%;
 }
 
 /* estrellas de tenedores */
@@ -369,26 +421,18 @@ li a{
 #form label {
 }
 
+/* estilo de las estrellas */
 input[type="radio"] {
   display: none;
 }
 
-label {
-  color: grey;
+input[type="radio"]:checked ~ label {
+  color: orange;
 }
 
 .clasificacion {
   direction: rtl;
   unicode-bidi: bidi-override;
-}
-
-label:hover,
-label:hover ~ label {
-  color: orange;
-}
-
-input[type="radio"]:checked ~ label {
-  color: orange;
 }
 
 /* botones de puntuacion y precio */
@@ -400,42 +444,30 @@ input[type="radio"]:checked ~ label {
     margin-bottom: 20px;
 }
 
-/* RESTAURANTES */
-/* contenedor de restaurantes */
-#restaurantes-contenedor{
+#contenedor-restaurantes{
     float:left;
     margin: 5% 0;
-		width: 50%;
+	width: 50%;
 }
 
-/*imagenes de los restaurantes*/
-#restaurantes-contenedor img{
+#contenedor-restaurantes img{
 	margin: 3%;
 	border: solid white;
 }
 
-/* restaurante 1 */
-#rest1 {
-    margin-bottom: 5%;
+#rest1{
+    margin: 0 5%;
     background-color:#81F7F3;
 }
 
-/* restaurante 2 */
-#rest2{
-    margin-top:20px;
+#rest2, #rest3{
+    margin: 5%;
     background-color:#81F7F3;
 }
 
-/* restaurante 3 */
-#rest3{
-    margin-top:20px;
-    background-color:#81F7F3;
-}
-
-/* informacion de los restaurantes */
 #rest-info{
 		float: right;
-		margin: 8% 10%;
+		margin: 8% 15% 8% 0;
 		width: 200px;
 		text-align: left;
 }
@@ -447,69 +479,56 @@ input[type="radio"]:checked ~ label {
     margin: 5% 3%;
 }
 
-/* -------------------------------------- tabletas*/
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
-	#publicidad{
-	    margin: 5% 42%;
-			float: left;
-	}
-
-	#filtro{
-	    background-color: #81F7F3;
-	    float: left;
-	    width: 25%;
-	    margin: 5% 3%;
-	    text-align: center;
-	}
-
-	#restaurantes-contenedor{
-	    float:left;
-	    margin: 5% 3% 5% 0;
-			width: 66%;
-	}
-}
-
 /* ---------------------------- resolución de pantalla: telefono inteligente*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	/*contenedor de filtro*/
 	#filtro{
-	    background-color: #81F7F3;
-	    float: left;
 	    width: 90%;
 	    margin: 5% 5%;
-	    text-align: center;
+	    font-size: -webkit-xxx-large;
+	    padding-bottom: 5%;
+	}
+
+	#filtro form{
+		margin-top: 0;
+	}
+
+	#filtro select{
+		font-size: 1em;
 	}
 
 	#filtro p{
-		display: inline;
+		margin-top: 5%;
 	}
 
-	#restaurantes-contenedor{
+	input[type=checkbox]{
+    	height:40px;
+	}
+
+	#contenedor-restaurantes{
 		margin: 5%;
 		width: 90%;
 	}
 
-	#rest1{
+	#rest1, #rest2, #rest3{
 		padding: 5% 0 5%;
-	}
-
-	#rest2{
-		padding: 5% 0 5%;
-	}
-
-	#rest3{
-		padding: 5% 0 5%;
+		margin-left: 0;
+		margin-right: 0;
 	}
 
 	#rest-info{
 		margin: auto;
-		width: 200px;
+		width: 70%;
 		float: none;
+		font-size: -webkit-xxx-large;
+		text-align: center;
 	}
 
-	#restaurantes-contenedor img{
+	#contenedor-restaurantes img{
 		display: block;
 		margin: auto;
 		border: solid white;
+		width: 70%;
 	}
 
 	#publicidad{
@@ -518,98 +537,66 @@ input[type="radio"]:checked ~ label {
 		margin: 5% 33%;
 	}
 
-	.buscador-r {
-		width: 100%;
-	}
-
-	/* barra de busqueda */
-	.buscador-resultados input{
-		width: 40%;
-		padding:3% 21%;
-		font-size: 2em;
-		float: left;
-		border: 0;
-	}
-
-	/* boton de buscar */
-	.buscador-resultados button{
-		padding: 3%;
-		border: 0;
-		font-size: 2em;
-		margin: 0;
+	.contenedor-resultados{
+		margin-top: 445px;
 	}
 }
 
 /* ================== DETALLES CSS ================== */
 
-/* CONTENEDOR */
-
-h2 {
-	margin: 100px 140px 30px;
-}
-h1{
-text-align:10px ;
-}
-/*
-#derecha{
-	width: 40%;
-	float: right;
+#ci-detalles{
+	margin-top: 215px;
 }
 
-#derecha button{
-    margin: 5px;
-    margin-left: 70px;
-    width: 60px;
-    text-align: center;
+#detalles-resumen h1{
+	color: greenyellow;
 }
 
-#izquierda{
-    width: 60%;*/
-
-
+#detalles-resumen img{
+	width: 30%;
+	margin-top: 2%;
 }
 
-.izq-contenedor{
-	width: 400px;
-	margin: 8% auto;
-	display: block;
+#detalles-ubicacion h2{
+	margin-top: 5%;
+	color: greenyellow;
 }
 
 #mapa {
     background-image: url("http://gadgerss.com/wp-content/uploads/2014/06/cobertura-ftth-voy.png");
     min-height: 150px;
-    width: 80%;
-    border: 1px solid #c5c5c5;
+    width: 70%;
     border-radius: 8px;
-    background-repeat: no-repeat;
-    margin: auto;
+    margin: 2% auto;
 }
 
-#direccion{
-	float:left;
-	margin-left:140px ;
-	font-size: 13px;
-	clear: both;
-
+#detalles-descripcion h2{
+	margin-top: 5%;
+	color: greenyellow;
 }
 
-#restaurante-descripcion p{
-	margin-left: 140px;
-	margin-right: 140px;
-	text-align: justify;
+#detalles-descripcion p{
+	margin: 2% auto;
+	width: 60%;
 }
 
-#servicios{
-    margin: auto;
+#detalles-servicios h2{
+	margin-top: 5%;
+	color: greenyellow;
 }
 
-#servicios-detalles {
-	margin-left: 140px;
-	margin-right: 140px;
+#detalles-servicios hr{
+	margin-bottom: 2%;
 }
 
-#servicios-detalles img {
-	margin-left: 150px;
+#detalles-servicios table{
+	margin-top: 2%;
+	margin: auto;
+}
+
+#detalles-platos h2{
+	margin-top: 5%;
+	color: greenyellow;
 }
 
 #tabIzq{
@@ -620,3 +607,74 @@ text-align:10px ;
 #tabDer{
     margin-left:50%;
 }
+
+/* ---------------------------- resolución de pantalla: telefono inteligente*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	#ci-detalles{
+		margin-top: 490px;
+		font-size: -webkit-xxx-large;
+	}
+
+	#detalles-resumen hr{
+		margin-bottom: 5%;
+	}
+
+	#detalles-resumen img{
+		width: 90%;
+	}
+
+	#detalles-ubicacion h2{
+		margin: 15% 0 0 ;
+	}
+
+	#detalles-ubicacion hr{
+		margin-bottom: 5%;
+	}
+
+	#detalles-ubicacion p{
+		width: 70%;
+		margin: auto; 
+	}
+
+	#detalles-descripcion h2{
+		margin: 15% 0 0;
+	}
+
+	#detalles-descripcion hr{
+		margin-bottom: 5%;
+	}
+
+	#detalles-descripcion p{
+		font-size: -webkit-xxx-large;
+		width: 75%;
+		text-align: justify;
+	}
+
+	#detalles-servicios h2{
+		margin: 15% 0 0;
+	}
+
+	#detalles-servicios hr{
+		margin-bottom: 5%;
+	}
+
+	#detalles-servicios td{
+		font-size: xx-large;
+	}
+
+	#detalles-platos h2{
+		margin: 15% 0 0;
+	}
+
+	#detalles-platos td{
+		margin-top: 15%
+	}
+
+	#detalles-platos hr{
+		margin-bottom: 5%
+	}
+
+	#detalles-platos section{
+		width: 100%;
+		font-size: 36px;
+	}

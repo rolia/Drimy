@@ -1,27 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Resultados</title>
+    <title>Drimy | Resultados</title>
 		<link href="css/style.css" rel= "stylesheet" />
 		<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link rel="icon" type="image/ico" href="img/favicon.ico"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   </head>
   <body style="background-image:url('img/fondo-index.jpg'); background-size: cover; background-position: center;">
-    <header>
+    <header class="header-fijo">
       <a href="/"> Drimy </a>
-        <div id="link">
-          <ul>
-            <li><a href="registro.html">REGISTRARSE</a></li>
-            <li><a href="inicio.html">INICIAR</a></li>
-          </ul>
+      <div id="link">
+        <ul>
+          <li><a href="registro.html">REGISTRARSE</a></li>
+          <li><a href="inicio.html">INICIAR</a></li>
+        </ul>
+      </div>
+      <div class="contenedor-buscador-fijo">
+        <div class="buscador-fijo">
+          <input type="text" name="nombredelacaja" placeholder="Ej.:Barranco">
+          <button type="button" href="resultados.html">Buscar</button>
         </div>
+      </div>
     </header>
-  	<div class="contenedor-resultados">
-      <section class="buscador-resultados" >
-  	    <div class="buscador-r">
-  	      <input type="text" name="nombredelacaja">
-  	      <button type="button">Buscar</button>
-  	    </div>
-      </section>
       <div class="contenedor-resultados">
       <section id="filtro">
         <h1>Filtros</h1>
@@ -40,41 +41,41 @@
           <label for="radio5">&#9733</label>
           </p>
         </form>
-        <p style="color:black;">Puntuacion</p>
+        <p style="color:black;">Puntuación</p>
   	    <select>
   	      <option>Excelente</option>
   	      <option>Bueno</option>
   	      <option>Malo</option>
   	      <option>Muy malo</option>
   	    </select>
-        <p style="color:black;">Precio</p>
+        <p>Precio</p>
         <select>
           <option>s/10 - s/30</option>
           <option>s/40 - s/70</option>
           <option>s/80 a mas</option>
         </select>
-        <p style="color: black;">Lo mas buscado</p>
+        <p style="color: black;">Lo más buscado</p>
   	    <input type="checkbox" name="wifi" value="1" style="width: 20px; margin-left: 0px;">WI-FI Gratis<br>
   			<input type="checkbox" name="desayuno" value="2" style="width: 20px; margin-left: 0px;">Desayuno<br>
   			<input type="checkbox" name="playa" value="3" style="width: 20px; margin-left: 0px; margin-bottom: 30px;">Playa<br>
       </section>
-      <section id="restaurantes-contenedor">
+      <section id="contenedor-restaurantes">
         <section id="rest1">
-          <img src="http://res.cloudinary.com/dhxaxlwii/image/upload/w_200,h_200,c_fill/kdynrexvr2pncie1v0gl.jpg"/>
+          <img src="img/rest1.jpg"/>
             <div id="rest-info">
               <a href="detalles.html"><h1>EL GRAN GOURMET</h1></a>
               <p style="color:black;">*Excelente - 84/100 (356 opiniones)<br/>*Wi-Fi gratis </p>
             </div>
         </section>
         <section id="rest2">
-          <img src="http://res.cloudinary.com/dhxaxlwii/image/upload/w_200,h_200,c_fill/mxty5vea8bkkvudahgwa.jpg"/>
+          <img src="img/rest2.jpg"/>
           <div id="rest-info">
             <h1 id="placeres">PLACERES DEL GUSTO</h1>
             <p style="color: black;">*Bueno - 50/100 <br/>*Menu economicos <br/>*Desayunos  </p>
           </div>
         </section>
         <section id="rest3">
-          <img src="http://statics.loff.it/wp-content/uploads/2017/05/loffit-restaurantes-que-merecen-que-la-calle-cambie-de-nombre-29-200x200.jpg"/>
+          <img src="img/rest3.jpg"/>
           <div id="rest-info">
             <h1>EL SABOR MARINO</h1>
             <p style="color:black;">*Excelente - 70/100 <br/>*Con vista al mar<br/>*Con Wi-Fi</p>
@@ -85,7 +86,7 @@
   			<img width= 100%; src="http://stylelovely.com/yvessaintlaurent/files/2016/11/Bannervertical_YSL2.gif"/>
   		</aside>
     </div>
-    <footer style="font-size: -webkit-xxx-large;">
+    <footer id="pie">
       <section id="izquierda">
   		  <h3>Drimy</h3>
   		  <hr>
